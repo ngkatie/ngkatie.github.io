@@ -50,6 +50,21 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 35px;
+    text-decoration: none;
+}
+
+.company {
+    margin-bottom: -15px;
+}
+
+.company a {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+.company a:hover {
+    color: #5c5c5c;
+    text-decoration: none;
 }
 
 h3 {
@@ -86,15 +101,13 @@ h3 {
 .section {
     padding-left: 10%;
     padding-right: 30%;
+    text-decoration: none;
 }
 
 .subtitle {
     margin-top: 50px;
     color: #9d9d9d;
-}
-
-.company {
-    margin-bottom: -15px;
+    text-decoration: none;
 }
 
 img.profile {
