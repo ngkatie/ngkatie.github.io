@@ -1,38 +1,39 @@
-import React from 'react';
-import Typed from 'typed.js';
+import React from 'react'
+import FullProfile from '../assets/FullProfile.jpg'
 
-const About = () => {
-
-    const el = React.useRef(null);
-
-    React.useEffect(() => {
-        const typed = new Typed(el.current, {
-        strings: ['developer','artist','lover'], 
-        startDelay: 200,
-        typeSpeed: 150,
-        backSpeed: 140,
-        backDelay: 100,
-        loop:true
-        });
-
-        return () => {
-            typed.destroy();
-        };
-    }, []);
-
+const Intro = () => {
     return (
-        <div className='text-[#A4907C]'>
+        <div className='w-full bg-[#fbfbfb]'>
 
-            <div className='max-w-[800px] mt-[-95px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-                <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 uppercase'>Hi, I'm Katie.</h1>
-                <div>
-                    {}
-                    <span className='md:text-2xl text-xl' ref={el}></span>
+            <div className='spacer wave-1'></div>
+            
+            <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 mt-[-100]'>
+            <img 
+                    className='w-[400px] mx-auto my-4'
+                    style={{borderRadius: 200}}  
+                    src={FullProfile} alt='/'
+                />
+                <div className='max-w-[450px] flex flex-col justify-center mx-[10px]'>
+                    <div className='md:text-4xl sm:text-3xl text-2xl font-bold md:py-4'>
+                        <p>Hi, I'm Katie!</p>
+                    </div>
+                    <div className='mt-4 mb-4 text-[18px] text-right pt-4 pb-4 border-t border-b border-black'>
+                        <p>B.S. Computer Science</p>
+                        <p>Minor in Quantitative Finance</p>
+                        <p><em>Stevens Institute of Technology</em></p>
+                    </div>
+                    <p className='text-[18px]'> 
+                        My curiosity for technology stems from a passion for challenge. Meaningful contributions are often 
+                        solutions to "impossible" questions, and while these solutions vary from question to question, all successful 
+                        approaches share two things in common: <b>confidence</b> and <b>an open mind.</b>
+                    </p>
                 </div>
             </div>
+
+            <div className='spacer wave-2'></div>
 
         </div>
     )
 }
 
-export default About;
+export default Intro

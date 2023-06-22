@@ -18,7 +18,7 @@ code {
 }
 
 .spacer {
-  aspect-ratio: 900/600;
+  aspect-ratio: 900/250;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -26,5 +26,10 @@ code {
 }
 
 .wave-1 {
-  background-image: url('./assets/intro-wave.svg');
+  background-image: url('./assets/wave1.svg');
+}
+
+.wave-2 {
+  background-image: url('./assets/wave2.svg');
+  transform: scale(-1,-1);
 }
