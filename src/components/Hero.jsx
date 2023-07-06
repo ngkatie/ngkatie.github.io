@@ -24,13 +24,23 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className='text-[#A4907C]'>
+        <div>
 
             <div className='max-w-[800px] mt-[-95px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
-                <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6 uppercase'>KATIE NG</h1>
-                <div>
+                <h1 className='md:text-8xl sm:text-6xl text-4xl font-bold md:py-6 uppercase'>KATIE NG</h1>
+                <div className='mb-10'>
                     {}
-                    <span className='md:text-2xl text-xl' ref={el}></span>
+                    <span className='md:text-3xl text-xl' ref={el}></span>
+                </div>
+
+                <div className="my-2 rounded-full inline-block whitespace-nowrap bg-white border border-[#CCCCCC]">
+                    <div className="p-2 inline-block font-medium text-[#50C878] border-r">
+                        <span className="inline-block align-middle m-3 h-2 w-2 bg-[#50C878] rounded-full" />
+                        Status
+                    </div>
+                    <p className="inline whitespace-nowrap p-4">
+                        Looking for a 2024 Summer Internship.
+                    </p>
                 </div>
             </div>
 

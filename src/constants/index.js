@@ -8,7 +8,7 @@ const experiences = [
         icon: johnson,
         date: "May 2023 - Present",
         points: [
-            "Supporting systems integration to digitize end-to-end supply chain for medical devices.",
+            "Maintained a product backlog and led weekly standups for 15+ global stakeholders to translate business needs into technical sprints, ensuring timely deployment for the consolidation of 7 supply chain ERPs.",
             "Hopefully data science and full-stack web development...    "
         ]
     },
@@ -18,9 +18,20 @@ const experiences = [
         icon: stevens,
         date: "Sep 2022 - May 2023",
         points: [
-            "Managed modules supporting university classes and research teams in developing predictive models for drug development, gene editing, and mechanical prototyping.",
-            "Assisted in launching a pilot program for a graduate finance course, allowing the professor to host classes in virtual reality.",
-            "Trained 150+ students, faculty members, and research teams to handle XR technologies and systems."
+            "Managed modules supporting 5 university classes and 6 research teams in drug development and mechanical prototyping.",
+            "Trained 220+ students and 15+ faculty members to handle 9 VR/AR systems.",
+            "Researched new developments in the metaverse to identify innovative technologies and educational strategy."
+        ]
+    },
+    {
+        title: "Undergraduate Researcher",
+        company_name: "Mobile AI Cybersecurity Computing (MACC) Laboratory",
+        icon: stevens,
+        date: "May 2022 - Aug 2022",
+        points: [
+            "Leveraged pandas to identify the optimal resource selection window ensuring 98% success for message delivery in cellular vehicle-to-everything (CV2X) communications.",
+            "Analyzed the performance of WiFi-based DSRC versus 4G/5G CV2X, concluding that DSRC outperformed by 97% in latency, but CV2X was 117% more reliable with packet reception.",
+            "Developed traffic simulations and modeled vehicular networks in Eclipse SUMO and ns-3."
         ]
     }
 ]
