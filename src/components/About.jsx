@@ -13,11 +13,11 @@ const Intro = () => {
                     style={{borderRadius: 200}}  
                     src={FullProfile} alt='/'
                 />
-                <div className='max-w-[450px] flex flex-col justify-center mx-[10px]'>
+                <div className='max-w-[450px] flex flex-col justify-center mx-[10px] text-[#857667]'>
                     <div className='md:text-4xl sm:text-3xl text-2xl font-bold md:py-4'>
                         <p>Hi, I'm Katie!</p>
                     </div>
-                    <div className='mt-4 mb-4 text-[18px] text-right pt-4 pb-4 border-t border-b border-black'>
+                    <div className='mt-4 mb-4 text-[18px] text-right pt-4 pb-4 border-t border-b border-[#857667]'>
                         <p>B.S. Computer Science</p>
                         <p>Minor in Quantitative Finance</p>
                         <p><em>Stevens Institute of Technology</em></p>
