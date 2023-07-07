@@ -1,4 +1,5 @@
 import React from 'react'
+// import LinearGradient from 'react-native-linear-gradient'
 import FullProfile from '../assets/FullProfile.jpg'
 
 const Intro = () => {
@@ -6,6 +7,8 @@ const Intro = () => {
         <div className='w-full'>
 
             {/* <div className='spacer wave-1'></div> */}
+
+            {/* <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']} style={{height: '100%'}}/> */}
             
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 mt-[-100]'>
             <img 
