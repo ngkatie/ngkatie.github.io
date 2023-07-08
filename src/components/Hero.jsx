@@ -26,7 +26,7 @@ const Hero = () => {
     return (
         <div>
 
-            <div className='max-w-[800px] mt-[-180px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
+            <div className='max-w-[800px] mt-[8px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
 
                 {/* <div>
                     {}

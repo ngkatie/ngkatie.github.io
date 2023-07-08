@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
-import {Routes, Route, useNavigate} from 'react-router-dom';
-import About from './About';
-import Experience from './Experience';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -11,21 +8,12 @@ const Navbar = () => {
         setNav(!nav);
     }
 
-    const navigate = useNavigate();
-
-    const navAbout = () => {
-        navigate('/about');
-    }
-    const navExperience = () => {
-        navigate('/experience');
-    }
-
     return (
         <div className='flex justify-between items-center h-30 max-w-[1240px] mx-auto my-10 px-4'>
 
             <ul className='hidden md:flex'>
-                <li onClick={navAbout} className='p-4'>About</li>
-                <li onClick={navExperience} className='p-4'>Experience</li>
+                <li className='p-4'>About</li>
+                <li className='p-4'>Experience</li>
                 <li className='p-4'>Projects</li>
             </ul>
 
@@ -40,12 +28,6 @@ const Navbar = () => {
                     <li className='p-4'>Projects</li>
                 </ul>
             </div>
-
-            <Routes>
-                <Route path='/about' element={<About/>} />
-                <Route path='/experience' element={<Experience/>} />
-            </Routes>
-
         </div>
     )
 }
