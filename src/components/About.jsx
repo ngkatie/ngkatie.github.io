@@ -1,16 +1,13 @@
 import React from 'react'
-// import LinearGradient from 'react-native-web-linear-gradient'
 import FullProfile from '../assets/FullProfile.jpg'
 
-const Intro = () => {
+const About = () => {
     return (
-        <div className='w-full'>
+        <div className='w-full bg-[#FAFAFC]'>
 
             {/* <div className='spacer wave-1'></div> */}
 
-            {/* <LinearGradient colors={['#4c669f', '#3b5998', '#192f6a']} style={{flex: 1}}></LinearGradient> */}
-            
-            <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 mt-[-100] bg-[#FAFAFC] rounded-full'>
+            <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 mt-[-100]'>
             <img 
                     className='w-[400px] mx-auto my-4'
                     style={{borderRadius: 200}}  
@@ -39,4 +36,4 @@ const Intro = () => {
     )
 }
 
-export default Intro
+export default About

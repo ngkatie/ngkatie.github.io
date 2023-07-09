@@ -64,7 +64,7 @@ function Particle() {
                         direction: "none",
                         enable: true,
                         outModes: {
-                            default: "out",
+                            default: "split",
                         },
                         random: true,
                         speed: 1,

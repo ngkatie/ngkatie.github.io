@@ -53,7 +53,7 @@ const ExperienceCard = ({ experience }) => {
   
   const Experience = () => {
     return (
-        <div className="m-20 flex flex-col">
+        <div className="m-[100px] flex flex-col">
           <h1 className='uppercase text-center md:text-5xl sm:text-4xl text-2xl font-bold md:py-4'>Experiences</h1>
           <VerticalTimeline>
             {experiences.map((experience, index) => (
