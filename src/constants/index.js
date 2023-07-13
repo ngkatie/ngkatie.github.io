@@ -9,7 +9,8 @@ const experiences = [
         date: "May 2023 - Present",
         points: [
             "Maintained a product backlog and led weekly standups for 15+ global stakeholders to translate business needs into technical sprints, ensuring timely deployment for the consolidation of 7 supply chain ERPs.",
-            "Hopefully data science and full-stack web development..."
+            "Assisted in UI/UX development for business report dashboards enabling a medical disposal and returns program.",
+            "Organized a corporate volunteering event at the Community Food Bank of New Jersey to reinforce the company's commitment to Our Credo."
         ]
     },
     {
