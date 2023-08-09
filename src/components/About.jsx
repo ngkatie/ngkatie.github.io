@@ -1,5 +1,8 @@
 import React from 'react'
-import FullProfile from '../assets/FullProfile.jpg'
+import FullProfile from '../assets/FullProfile_Transparent.png'
+// import { ImageBackground, StyleSheet, Text, View } from 'react-native-web-linear-gradient';
+// import LinearGradient from 'react-native-web-linear-gradient'
+// import { View } from 'react-native-web'
 
 const About = () => {
     return (
@@ -8,7 +11,7 @@ const About = () => {
             {/* <div className='spacer wave-1'></div> */}
 
             <div className='max-w-[1240px] mx-auto grid md:grid-cols-2 mt-[-100]'>
-            <img 
+                <img 
                     className='w-[400px] mx-auto my-4'
                     style={{borderRadius: 200}}  
                     src={FullProfile} alt='/'
